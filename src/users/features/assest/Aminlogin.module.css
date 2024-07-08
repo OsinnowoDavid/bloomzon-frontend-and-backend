@@ -1,0 +1,168 @@
+html {
+  height: 100%;
+}
+
+.loginbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.loginbox h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.loginbox .userbox {
+  position: relative;
+}
+
+.loginbox .userbox input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.loginbox .userbox label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.loginbox .userbox input:focus  label,
+.loginbox .userbox input:valid label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.loginbox form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+.bloomzonlogo{
+  width: 100px;
+  margin: 20px;
+
+}
+.head{
+
+  text-align: center;
+  justify-content: center;
+  
+  font-size: 50px;
+  color: blue;
+ }
+ .span{
+  color: red;
+ }
+ .btn {
+  width: 6.5em;
+  height: 2.3em;
+  margin: 1.5em;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-top: 150px;
+  padding: 10px 10px 10px ;
+  
+  ;
+}
+.button{text-align: center;
+  justify-content: center;
+
+}
+ 
+ .btn:hover {
+  color: red;
+ }
+ .head{
+
+  text-align: center;
+  justify-content: center;
+  
+  font-size: 50px;
+  color: rgb(5, 204, 197)
+ }
+ .span{
+  color:white;
+ }
+ .pagedetails{
+ text-align: center;
+ margin-top: 100px;
+
+ }
+
+ 
+ .btn:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+ }
+ 
+ .btn:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ }
+ .btn a {
+  text-decoration: none;
+  padding: 10px;
+  color:orange;
+ }
+ .bg{
+  background-image: url(./design.jpg);
+  background-size: cover;
+  width: 2000px;
+  height: 1000px;
+  position: relative;
+  background-position: center;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+a{
+  text-decoration: none;
+ }

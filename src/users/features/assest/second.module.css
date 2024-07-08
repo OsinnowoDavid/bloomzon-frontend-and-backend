@@ -1,0 +1,115 @@
+
+
+.bloomzonlogo{
+  width: 100px;
+  margin: 20px;
+
+}
+.head{
+
+  text-align: center;
+  justify-content: center;
+  
+  font-size: 50px;
+  color: rgb(5, 204, 197)
+ }
+ .span{
+  color:  rgb(5, 204, 197);
+ }
+
+ 
+
+.admin{
+  margin-top: 100px;
+  color: rgb(3, 3, 3);
+  margin-left: 100px;
+  width: 100px;
+  height: 100px;
+  justify-content: space-between;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  page-break-inside: 20px;
+  border: solid rgb(77, 68, 22);
+  border-radius: 20px;
+
+  text-decoration: none;
+  box-sizing: border-box;
+  box-shadow: black 2px, 2px,100px;
+  width: 400px;
+  height: 150px;
+
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+.fee{
+ 
+  width: 20px;
+  float: left;
+  
+}
+.deleteUsers{
+  width: 20px;
+  display: flex;
+}
+
+
+
+.btn {
+  width: 6.5em;
+  height: 2.3em;
+  margin: 1.5em;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-top: 150px;
+  padding: 10px 10px 10px ;
+  
+  ;
+}
+.button{text-align: center;
+  justify-content: center;
+
+}
+ 
+
+ .btn:hover {
+  color: red;
+ }
+
+
+ .btn:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+ }
+ 
+ .btn:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ }
+ .btn a {
+  text-decoration: none;
+  padding: 10px;
+  color: blue;
+ }
+ a{
+  text-decoration: none;
+ }

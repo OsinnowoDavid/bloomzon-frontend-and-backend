@@ -1,0 +1,90 @@
+.bg{
+  background-image: url(./admin.jpg);
+  background-size: cover;
+
+  position: relative;
+  color: white;
+}
+.bloomzonlogo{
+  width: 100px;
+  margin: 20px;
+
+}
+.ul{
+  display: flex;
+}
+.officaluse{
+ text-align: center;
+ margin-top: 120px;
+}
+.btn {
+  width: 6.5em;
+  height: 2.3em;
+  margin: 1.5em;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 0.625em;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-top: 150px;
+  padding: 10px 10px 10px ;
+  
+  ;
+}
+.button{text-align: center;
+  justify-content: center;
+
+}
+ 
+ .btn:hover {
+  color: rgb(240, 230, 230);
+ }
+ .head{
+
+  text-align: center;
+  justify-content: center;
+  
+  font-size: 50px;
+  color: rgb(5, 204, 197);
+ }
+ a{
+  text-decoration: none;
+ }
+ .span{
+  color: white;
+ }
+ .pagedetails{
+ text-align: center;
+ margin-top: 100px;
+
+ }
+
+ 
+ .btn:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+ }
+ 
+ .btn:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ }
+ .btn a {
+  text-decoration: none;
+  padding: 10px;
+  color:orange;
+ }

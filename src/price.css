@@ -1,0 +1,44 @@
+.bass{
+    box-shadow: black, 1px , 1px, 5px;
+
+    width: 20px;
+    display: flex;
+    margin-top:  50px;
+    margin-inline-start: 50px;
+}
+.list{
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    page-break-inside: 20px;
+ 
+    text-decoration: none;
+    box-sizing: border-box;
+    box-shadow: black 2px, 2px,5px;
+    width: 400px;
+    height: 100px;
+}
+.mainlist{
+    box-sizing: border-box;
+ box-shadow: 2px 2px 2px rgb(204, 196, 196);
+ border-radius: 5px;
+
+
+
+}
+.smalllist{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul  {
+    
+    list-style: none;
+}
+.green{
+    color: green;
+}
+.span{
+    color: aqua;
+
+}
